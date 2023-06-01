@@ -3,3 +3,6 @@ body{
     --twitter-background: #e6ecf0;
 }
 
+.App{
+    display: flex;
+}
