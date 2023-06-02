@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
-import TwitterIcon from "@mui/icons-material/Twitter";
 import SidebarOption from './SidebarOption';
+import TwitterIcon from "@mui/icons-material/Twitter";
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';import MailOutlineIcon from '@mui/icons-material/MailOutline';
@@ -15,7 +15,7 @@ function Sidebar() {
   return (
     <div className='sidebar'>
         {/* Twitter icon */}
-        <TwitterIcon />
+        <TwitterIcon className='sidebar_twitterIcon'/>
 
         <SidebarOption active Icon={HomeIcon} text={"Home"}/>
         <SidebarOption Icon={SearchIcon} text={"Explore"}/>
