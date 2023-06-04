@@ -9,7 +9,7 @@ function App() {
     // BEM
     <div className="App">
 
-      {/* sidebar */}
+      {/* Sidebar */}
       <Sidebar />
 
       {/* Feed */}
