@@ -17,7 +17,7 @@ function Post({
 }) {
   return <div className='post'>
         <div className='post__avatar'>
-            <Avatar src="tenHag.jpg"></Avatar>
+            <Avatar src="tenHag.jpg" />
         </div>
         <div className='post__body'>
             <div className='post__header'>
