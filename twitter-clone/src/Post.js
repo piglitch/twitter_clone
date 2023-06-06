@@ -25,7 +25,7 @@ function Post({
                     <h3>
                         {displayName} {" "}  <span className='post__headerSpecial'>
                             {verified && <VerifiedIcon className='post__badge' />}
-                            {username}
+                            {"@"}{username}
                         </span>
                     </h3>
                 </div>
