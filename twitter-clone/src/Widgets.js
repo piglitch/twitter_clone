@@ -17,7 +17,12 @@ function Widgets() {
         <h2>What's happening</h2>
         <TwitterTimelineEmbed 
           sourceType='profile'
-          screenName='UTDTrey'
+          screenName='ThePrimeagen'
+          options={{height: 400}}
+        />
+         <TwitterTimelineEmbed 
+          sourceType='profile'
+          screenName='UtdPlug'
           options={{height: 400}}
         />
 
