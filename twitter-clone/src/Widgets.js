@@ -26,10 +26,10 @@ function Widgets() {
           options={{height: 400}}
         />
 
-        <TwitterShareButton 
+        <p><TwitterShareButton 
           url={"https://facebook.com/avibanerjee"}
           options={{text: "#Manchester is red🔴", via:"avibanerjee"}}
-        />
+        /></p>
       </div>
     </div>
   )

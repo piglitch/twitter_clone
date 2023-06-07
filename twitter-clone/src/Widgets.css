@@ -34,3 +34,9 @@
     font-weight: 800;
     padding: 10px;
 }
+
+.widgets__widgetContainer > p{
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
