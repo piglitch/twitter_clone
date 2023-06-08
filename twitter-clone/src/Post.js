@@ -6,16 +6,17 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import IosShareRoundedIcon from '@mui/icons-material/IosShareRounded';
 import BarChartRoundedIcon from '@mui/icons-material/BarChartRounded';import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import { forwardRef } from 'react';
 
-function Post({
+const Post = forwardRef(({
     displayName,
     username,
     verified,
     text,
     avatar,
     image,
-}) {
-  return <div className='post'>
+}, ref) => {
+  return (<div className='post' ref={ref}>
         <div className='post__avatar'>
             <Avatar src={avatar} />
         </div>
@@ -45,7 +46,6 @@ function Post({
             </div>
         </div>
     </div>
-}
-
-
+);
+});
 export default Post;
