@@ -15,7 +15,7 @@ function TweetBox() {
       username: 'greg2838',
       verified: true,
       text: tweetMessage,
-      mage: tweetImage,
+      image: tweetImage,
       avatar: 'tenHag.jpg'
     });
     setTweetMessage("");
